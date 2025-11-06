@@ -8,6 +8,6 @@ docker run -it -v $(pwd):/workspace \
 --env ANTHROPIC_BASE_URL=$url \
 --env ANTHROPIC_MODEL=$model \
 --env ANTHROPIC_SMALL_FAST_MODEL=$fast_model \
-$image \
+registry-crs-huadong1.ctyun.cn/7sunarni/claude:v1 \
 claude
 ```
